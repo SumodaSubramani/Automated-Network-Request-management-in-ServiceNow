@@ -198,5 +198,5 @@ A powerful flow was built with the following actions:
 
 ## 👨‍💻 Author
 **M.V.S.Geeth Sreetham**  
-* MERN Stack Developer | ServiceNow Enthusiast | AI-Driven Solutions Builder*  
-🔗 [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/geethsreetham/)) | 🔗 [GitHub](https://github.com/geethsreetham)  
+* MERN Stack Developer | ServiceNow Enthusiast | Cyber security *  
+🔗 [LinkedIn](https://www.linkedin.com/in/geethsreetham/) | 🔗 [GitHub](https://github.com/geethsreetham)  
