@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🌐 Network Request Automation – ServiceNow
 
 ## 📝 Project Description
@@ -86,7 +86,7 @@ The automated workflow follows a clear, logical path:
 ---
 
 ## ⚙️ Key Components
-<<<<<<< HEAD
+
 
 ### 1️⃣ Service Catalog Item – *Network Request*
 - Entry point for end users.  
@@ -177,7 +177,7 @@ A powerful flow was built with the following actions:
 - **Custom Table (`u_network_database_table`)**: A dedicated database table designed to store all network request records, providing a single source of truth.  
 - **Flow Designer Automation**: The core engine that orchestrates the entire process, from record creation and notifications to approvals and status updates.  
 - **Notifications & Approvals**: Configured email templates and approval actions to provide real-time updates and enable decision-making.  
->>>>>>> 8b25052cfdd0d2d08df73d89c323534b9d6b7e67
+
 
 ---
 
@@ -241,9 +241,9 @@ This project successfully delivers a fully automated network request lifecycle, 
 ---
 
 ## 👨‍💻 Author
-**M.V.S.Geeth Sreetham**  
+**N.SUMODA SUBRAMANI**  
 * MERN Stack Developer | ServiceNow Enthusiast | Cyber security *  
-🔗 [LinkedIn](https://www.linkedin.com/in/geethsreetham/) | 🔗 [GitHub](https://github.com/geethsreetham)  
+🔗 [LinkedIn](www.linkedin.com/in/sumoda-subramani-narava/) | 🔗 [GitHub]([https://github.com/geethsreetham](https://github.com/SumodaSubramani))  
 =======
 ### 1. Import Update Set
 - Navigate to **System Update Sets > Retrieved Update Sets**.  
@@ -266,4 +266,4 @@ Copy code
 - Approve or reject the request and confirm that the status is automatically updated.  
 
 ---
->>>>>>> 8b25052cfdd0d2d08df73d89c323534b9d6b7e67
+
