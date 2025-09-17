@@ -1,46 +1,31 @@
 
-# 🌐 Automated Network Request Automation – ServiceNow
-
-## 📝 Project Description
-The **Network Request Automation** project is designed to digitize and automate the process of submitting, approving, and tracking **network service requests** in ServiceNow.  
-Traditionally, these requests were handled manually (emails, spreadsheets, calls), causing **delays, inefficiencies, and lack of traceability**.  
-
-This project introduces a **self-service catalog item** that allows employees to submit requests, which are then automatically:
-- Stored in a **custom table**,
-- Routed for **approvals**,
-- Sent as **email notifications**,
-- Updated in **real-time with final status**.  
-
-This solution is scalable, reusable, and production-oriented – a perfect demonstration of **ServiceNow Flow Designer, Catalog Items, Notifications, and Approvals**.
-=======
 # Automated Network Request Management in ServiceNow
 
 This project automates the end-to-end management of network-related service requests within ServiceNow. By replacing traditional manual methods (like emails and spreadsheets) with an automated workflow, this solution significantly reduces delays, improves efficiency, and enhances traceability.
 
 The system uses a self-service catalog item where employees can submit requests, which are then automatically processed, routed for approval, and tracked in real time. This project is a practical demonstration of core ServiceNow capabilities, including Flow Designer, Service Catalog, custom tables, and notifications.
->>>>>>> 8b25052cfdd0d2d08df73d89c323534b9d6b7e67
+
 
 ---
 
 ## 🎯 Objectives
-<<<<<<< HEAD
+
 - Provide a **centralized catalog item** for all network-related requests.  
 - Reduce manual interventions by automating **approvals, record creation, and notifications**.  
 - Ensure **data consistency** via a custom database table.  
 - Deliver **real-time communication** using automated emails.  
 - Design with **scalability and reusability** in mind.  
-=======
 - Provide a centralized catalog item for all network-related requests.  
 - Reduce manual intervention by automating approvals, record creation, and notifications.  
 - Ensure data consistency using a dedicated custom database table.  
 - Deliver real-time communication to users and technicians with automated email notifications.  
 - Design a scalable and reusable solution using best practices.  
->>>>>>> 8b25052cfdd0d2d08df73d89c323534b9d6b7e67
+
 
 ---
 
 ## 🏗️ Architecture & Workflow
-<<<<<<< HEAD
+
 
 
 Employee Submits Request (Service Catalog)
@@ -72,7 +57,7 @@ Flow Designer
 ├── 📄 Relationships.png # Relationship mapping
 └── 📄 Update_Set_Export.xml # Update set for import into ServiceNow
 
-=======
+
 The automated workflow follows a clear, logical path:
 
 1. **Employee Submits Request**: Users access a custom catalog item from the ServiceNow Service Portal.  
@@ -81,7 +66,7 @@ The automated workflow follows a clear, logical path:
 4. **Send Notifications**: Automated email notifications are sent to both the requester and the designated approver.  
 5. **Seek Approval**: The flow routes the request for approval to the appropriate manager or team.  
 6. **Update Status**: Based on the approval decision, the flow automatically updates the request's status (Approved/Rejected) in the custom table.  
->>>>>>> 8b25052cfdd0d2d08df73d89c323534b9d6b7e67
+
 
 ---
 
@@ -171,7 +156,7 @@ A powerful flow was built with the following actions:
 4. **Flow stuck in pending**  
    - ❌ Cause: Approval action not configured with correct approver.  
    - ✔️ Fix: Assigned dynamic approver properly.  
-=======
+
 - **Service Catalog Item**: The user-facing entry point for submitting network requests.  
 - **Variable Set**: A reusable component that ensures consistent data capture across multiple catalog items (e.g., Requester Name, Email, Department).  
 - **Custom Table (`u_network_database_table`)**: A dedicated database table designed to store all network request records, providing a single source of truth.  
@@ -182,7 +167,7 @@ A powerful flow was built with the following actions:
 ---
 
 ## 🚀 Outcomes
-<<<<<<< HEAD
+
 - Fully automated **Network Request lifecycle**.  
 - Eliminated manual tracking with **real-time updates**.  
 - Boosted efficiency via **self-service catalog & automated approvals**.  
@@ -191,19 +176,19 @@ A powerful flow was built with the following actions:
   - Flow Designer Automation  
   - Notifications & Approvals  
   - Custom Table Design  
-=======
+
 This project successfully delivers a fully automated network request lifecycle, showcasing a practical application of ServiceNow development skills. Key achievements include:
 
 - Eliminated manual tracking and introduced real-time visibility.  
 - Boosted efficiency by automating approvals and data entry.  
 - Proved expertise in ServiceNow's core platform features, including Catalog Development, Flow Designer, and custom table design.  
->>>>>>> 8b25052cfdd0d2d08df73d89c323534b9d6b7e67
+
 
 ---
 
 ## 🛠️ Setup & Deployment
 
-<<<<<<< HEAD
+
 ### 1️⃣ Import into ServiceNow
 1. Navigate to **System Update Sets > Retrieved Update Sets**.  
 2. Import `Update_Set_Export.xml`.  
