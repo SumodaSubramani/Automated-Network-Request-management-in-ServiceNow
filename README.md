@@ -1,5 +1,5 @@
 
-# 🌐 Network Request Automation – ServiceNow
+# 🌐 Automated Network Request Automation – ServiceNow
 
 ## 📝 Project Description
 The **Network Request Automation** project is designed to digitize and automate the process of submitting, approving, and tracking **network service requests** in ServiceNow.  
